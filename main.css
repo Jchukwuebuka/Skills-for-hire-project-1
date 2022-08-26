@@ -5,11 +5,25 @@ body{
 }
 header{
     background-color: blue;
-    height: 40px;
+    height: 100px;
     width: 1000px;
     display: flex;
+    flex: auto auto auto;
 }
-header img{
-    height: 40px;
-    width: 40px;
+.hamburger, .canoe{
+    height: 100%;
+    width: 100px;
+}
+.canoe{
+    position: relative;
+    float: right;
+    right: 0;
+}
+.title{
+    width: 900px;
+    text-align: centre;
+    
+}
+.body-image{
+    width: 1000px;
 }
