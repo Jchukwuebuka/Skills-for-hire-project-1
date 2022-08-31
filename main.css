@@ -67,3 +67,10 @@ header{
     margin: 0 2%;
     width: 96%;
 }
+@media only screen and (min-width: 1000px) {
+    article{
+        width: 1000px;
+        align-items: center;
+        margin: auto;
+    }
+  }
